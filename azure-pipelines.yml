@@ -119,6 +119,7 @@ stages:
     - publish: '$(Build.ArtifactStagingDirectory)'
       artifact: drop
 
+
 - stage: 'Deploy'
   displayName: 'Deploy the web application'
   dependsOn: Build
@@ -140,7 +141,7 @@ stages:
           - task: AzureRmWebAppDeployment@4
             inputs:
               ConnectionType: 'AzureRM'
-              azureSubscription: 'Resource Manager - Tailspin - Space Game'
+              azureSubscription: 'Pay-As-You-Go(f950d608-3ab1-40cd-a15b-14ea4c825679)'
               appType: 'webAppLinux'
-              WebAppName: '$(WebAppName)'
-              packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+              WebAppName: 'tailspin-space-game-web-01234'
+              packageForLinux: '''$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'''
