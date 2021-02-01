@@ -1,5 +1,5 @@
 
-[![Build Status](https://dev.azure.com/midhunkumarallur/Create%20a%20build%20pipeline/_apis/build/status/midhunkumarsingh.mslearn-tailspin-spacegame-web?branchName=refs%2Fpull%2F3%2Fmerge)](https://dev.azure.com/midhunkumarallur/Create%20a%20build%20pipeline/_build/latest?definitionId=32&branchName=refs%2Fpull%2F3%2Fmerge)
+[![Build Status](https://dev.azure.com/midhunkumarallur/Create%20a%20build%20pipeline/_apis/build/status/midhunkumarsingh.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/midhunkumarallur/Create%20a%20build%20pipeline/_build/latest?definitionId=32&branchName=master)
 
 
 # Contributing
