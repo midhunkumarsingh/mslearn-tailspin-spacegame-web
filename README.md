@@ -1,4 +1,7 @@
 
+[![Build Status](https://dev.azure.com/midhunkumarallur/Create%20a%20build%20pipeline/_apis/build/status/midhunkumarsingh.mslearn-tailspin-spacegame-web?branchName=refs%2Fpull%2F3%2Fmerge)](https://dev.azure.com/midhunkumarallur/Create%20a%20build%20pipeline/_build/latest?definitionId=32&branchName=refs%2Fpull%2F3%2Fmerge)
+
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
