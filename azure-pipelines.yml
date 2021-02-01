@@ -144,4 +144,4 @@ stages:
               azureSubscription: 'Pay-As-You-Go(f950d608-3ab1-40cd-a15b-14ea4c825679)'
               appType: 'webAppLinux'
               WebAppName: 'tailspin-space-game-web-01234'
-              packageForLinux: '''$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'''
+              packageForLinux: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
